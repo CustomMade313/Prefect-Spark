@@ -25,10 +25,9 @@ To run this project, you'll need to have the following dependencies installed:
 
 ### Prerequisites
 
-Make sure you have Python and pip installed. Then, install the required
+Make sure you have Python and pip installed. Then, install the required modules (it is adviced to use a virtual enviroment)
 
 ```bash
-# Example
 pip install pyspark
 pip install prefect
 pip isntall pandas
