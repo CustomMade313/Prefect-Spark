@@ -31,3 +31,13 @@ Make sure you have Python and pip installed. Then, install the required modules 
 pip install pyspark
 pip install prefect
 pip isntall pandas
+
+then start the Prefect server
+
+```bash
+prefect server start
+
+and then run the orchestration.py file
+
+```bash
+python3 orchestration.py
