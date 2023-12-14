@@ -1,0 +1,17 @@
+types.StructType([
+types.StructField('id', types.StringType(), True),
+types.StructField('title', types.StringType(), True),
+types.StructField('type', types.StringType(), True),
+types.StructField('description', types.StringType(),True),
+types.StructField('release_year', types.IntegerType(), True),
+types.StructField('age_certification', types.StringType(), True),
+types.StructField('runtime', types.LongType(), True),
+types.StructField('genres', types.StringType(), True),
+types.StructField('production_countries', types.StringType(), True),
+types.StructField('seasons', types.IntegerType(), True),
+types.StructField('imdb_id', types.StringType(), True),
+types.StructField('imdb_score', types.DoubleType(), True),
+types.StructField('imdb_votes', types.IntegerType(), True),
+types.StructField('tmdb_popularity', types.DoubleType(), True),
+types.StructField('tmdb_score', types.DoubleType(), True)
+])

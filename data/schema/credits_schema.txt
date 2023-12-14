@@ -1,0 +1,7 @@
+types.StructType([
+types.StructField('person_id', types.IntegerType(), True),
+types.StructField('id', types.StringType(), True),
+types.StructField('name', types.StringType(), True),
+types.StructField('character', types.StringType(), True),
+types.StructField('role', types.StringType(), True)
+])
